@@ -9,7 +9,7 @@ These reports use fictional records and evidence placeholders. Replace each plac
 | Module | Quote Management |
 | Environment | QA; Chrome latest; Windows 11 |
 | Severity / Priority | High / High |
-| Status | Open |
+| Status | Resolved — Fixed and retested |
 | Related test | TC-QTE-005 |
 
 **Precondition:** A saved quote preview is open.
@@ -53,7 +53,11 @@ These reports use fictional records and evidence placeholders. Replace each plac
 
 **Actual result:** The previous phone number is displayed after the record is reopened.
 
-**Evidence:** `evidence/BUG-002-corporate-client-update.mp4`
+**Resolution:** The defect was fixed. Retesting confirmed that updated corporate-client information persists after saving and reopening the record.
+
+**Retest result:** Passed
+
+**Evidence:** [Jam recording — Corporate client update fix verification](https://jam.dev/c/bc5e160f-0e47-4850-801f-1f720ce3ab87)
 
 ---
 
