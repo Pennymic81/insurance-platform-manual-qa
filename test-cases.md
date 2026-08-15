@@ -47,7 +47,7 @@
 | TC-CLM-001 | Submit claim for active policy | Active policy exists | 1. Open Claims. 2. Click New Claim. 3. Select policy. 4. Enter incident data. 5. Submit. | Claim is created with a unique reference and Submitted status. | Critical | Pass |
 | TC-CLM-002 | Prevent claim amount above Sum Insured | Active policy exists | 1. Start claim. 2. Enter amount greater than Sum Insured. 3. Submit. | Submission is prevented and the allowed maximum is explained. | High | Pass |
 | TC-CLM-003 | Reject unsupported document type | Claim form is open | 1. Upload an executable file. | File is rejected and supported formats and size limit are shown. | High | Pass |
-| TC-CLM-004 | Settle approved claim | Approved claim exists | 1. Open claim. 2. Click Settle. 3. Enter valid amount and method. 4. Confirm. | Settlement succeeds, status and audit history update, and success message appears. | Critical | Fail — BUG-005 |
+| TC-CLM-004 | Start settlement for an eligible claim | Registered claim is eligible for settlement | 1. Open claim details. 2. Scroll to claim actions. 3. Inspect the Settle Claim button. 4. Attempt to begin settlement. | Settle Claim is enabled for the authorized user and opens the settlement workflow. | Critical | Fail — BUG-005 |
 
 ## Remittance and Permissions
 
