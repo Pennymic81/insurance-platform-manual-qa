@@ -27,14 +27,14 @@ The portfolio covers:
 
 | File | Purpose |
 | --- | --- |
-| [Test Plan](docs/test-plan.md) | Scope, strategy, risks, environments, and exit criteria |
-| [Test Scenarios](docs/test-scenarios.md) | High-level coverage across platform modules |
-| [Test Cases](docs/test-cases.md) | Detailed positive, negative, boundary, and permission tests |
-| [Bug Reports](docs/bug-reports.md) | Five sample defects written in a professional format |
-| [Traceability Matrix](docs/traceability-matrix.md) | Mapping between requirements, test cases, and defects |
-| [Regression Checklist](docs/regression-checklist.md) | Critical checks before a release |
-| [Test Summary](docs/test-summary-report.md) | Sample execution results and release recommendation |
-| [Test Data](test-data/test-data.csv) | Fictional reusable test inputs |
+| [Test Plan](test-plan.md) | Scope, strategy, risks, environments, and exit criteria |
+| [Test Scenarios](test-scenarios.md) | High-level coverage across platform modules |
+| [Test Cases](test-cases.md) | Detailed positive, negative, boundary, and permission tests |
+| [Bug Reports](bug-reports.md) | Five sample defects written in a professional format |
+| [Traceability Matrix](traceability-matrix.md) | Mapping between requirements, test cases, and defects |
+| [Regression Checklist](regression-checklist.md) | Critical checks before a release |
+| [Test Summary](test-summary-report.md) | Sample execution results and release recommendation |
+| [Test Data](test-data.csv) | Fictional reusable test inputs |
 
 ## Test Execution Summary
 
@@ -70,10 +70,9 @@ Formula: `Pass Rate = Passed / Executed × 100`
 
 ## How to Use This Portfolio
 
-Open the files in `docs/` in the order shown above. During an interview, explain how requirements were converted into test scenarios and cases, how failed cases became bug reports, and how release risk was evaluated in the summary report.
+Open the documents in the order shown above. During an interview, explain how requirements were converted into test scenarios and cases, how failed cases became bug reports, and how release risk was evaluated in the summary report.
 
 ## Author
 
 Paul Michael Adekunle  
 Junior QA Engineer | Manual Testing | Functional Testing | Regression Testing
-
