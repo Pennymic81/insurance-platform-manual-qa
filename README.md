@@ -42,17 +42,17 @@ The portfolio covers:
 | --- | ---: |
 | Test cases designed | 30 |
 | Test cases executed | 30 |
-| Passed | 24 |
-| Failed | 5 |
+| Passed | 25 |
+| Failed | 4 |
 | Blocked | 1 |
-| Pass rate | 80% |
+| Pass rate | 83.3% |
 
 Formula: `Pass Rate = Passed / Executed × 100`
 
 ## Key Findings
 
 - Quote preview can become unavailable after a page refresh.
-- Corporate client edits may not persist.
+- Corporate client edit persistence was fixed and passed retesting.
 - Assigned marketer information may be missing from downstream documents.
 - Currency-dependent values can appear before currency data finishes loading.
 - A claim settlement flow may fail after valid information is submitted.
