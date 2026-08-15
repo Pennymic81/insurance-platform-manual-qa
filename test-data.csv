@@ -1,0 +1,22 @@
+data_id,category,field,value,purpose
+TD-001,user,email,broker.qa@example.test,Valid Broker login
+TD-002,user,email,marketer.qa@example.test,Valid Marketer login
+TD-003,user,email,claims.qa@example.test,Valid Claims Officer login
+TD-004,client,type,Individual,Individual client flow
+TD-005,client,full_name,Amina Bello,Valid fictional client
+TD-006,client,email,amina.bello@example.test,Valid fictional email
+TD-007,client,type,Corporate,Corporate client flow
+TD-008,client,company_name,Northstar Trading Ltd,Valid fictional company
+TD-009,client,email,contact@northstar.example.test,Valid fictional company email
+TD-010,quote,product,Motor Comprehensive,Valid product
+TD-011,quote,sum_insured,5000000,Valid financial boundary
+TD-012,quote,sum_insured,0,Invalid zero amount
+TD-013,quote,currency,NGN,Local currency scenario
+TD-014,quote,currency,USD,Foreign currency scenario
+TD-015,policy,start_date,2026-08-15,Valid policy start
+TD-016,policy,end_date,2027-08-14,Valid policy end
+TD-017,claim,incident_type,Accidental Damage,Valid claim category
+TD-018,claim,amount,350000,Valid settlement amount
+TD-019,file,name,claim-photo.jpg,Supported attachment
+TD-020,file,name,malware.exe,Unsupported attachment
+
