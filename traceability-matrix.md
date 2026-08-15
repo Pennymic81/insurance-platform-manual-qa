@@ -3,7 +3,7 @@
 | Requirement ID | Requirement | Test Cases | Defect | Coverage |
 | --- | --- | --- | --- | --- |
 | REQ-AUTH-01 | Registered users can authenticate securely | TC-AUTH-001–004 | — | Covered |
-| REQ-CLT-01 | Users can create and update clients | TC-CLT-001–004 | BUG-002 | Covered; failed |
+| REQ-CLT-01 | Users can create and update clients | TC-CLT-001–004 | BUG-002 (Resolved) | Covered; passed after fix |
 | REQ-CLT-02 | Clients can be assigned to marketers | TC-CLT-005 | — | Covered |
 | REQ-QTE-01 | Users can create and preview valid quotes | TC-QTE-001–005 | BUG-001 | Covered; failed |
 | REQ-QTE-02 | Authorized users can accept quotes | TC-QTE-006, TC-PER-002 | — | Covered |
@@ -14,4 +14,3 @@
 | REQ-REM-01 | Users can process remittance and download reports | TC-REM-001–003 | — | Covered |
 | REQ-PER-01 | Restricted actions require permission | TC-PER-001–002 | — | Covered |
 | REQ-COMP-01 | Critical journeys work in supported browsers | TC-COMP-001 | — | Blocked |
-
