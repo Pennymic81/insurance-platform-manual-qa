@@ -16,7 +16,7 @@
 | TC-CLT-001 | Create an individual client | Broker is logged in | 1. Open Clients. 2. Click **New Client**. 3. Select Individual. 4. Complete required fields. 5. Save. | Client is saved once and appears in the client list with correct details. | High | Pass |
 | TC-CLT-002 | Create a corporate client | Broker is logged in | 1. Open New Client. 2. Select Corporate. 3. Enter valid company data. 4. Save. | Corporate client is saved and a success message appears. | High | Pass |
 | TC-CLT-003 | Prevent duplicate client email | A client already uses the test email | 1. Create another client. 2. Enter the existing email. 3. Save. | Save is prevented and the duplicate-email message identifies the affected field. | Medium | Pass |
-| TC-CLT-004 | Persist corporate client edits | Corporate client exists | 1. Open client details. 2. Click Edit. 3. Change phone number. 4. Save. 5. Reopen record. | Updated phone number remains saved and is visible everywhere the client appears. | High | Fail — BUG-002 |
+| TC-CLT-004 | Persist corporate client edits | Corporate client exists | 1. Open client details. 2. Click Edit. 3. Change phone number. 4. Save. 5. Reopen record. | Updated phone number remains saved and is visible everywhere the client appears. | High | Pass — BUG-002 fixed and retested |
 | TC-CLT-005 | Assign a client to a marketer | Client and Marketer account exist | 1. Open Assign Client. 2. Select client type. 3. Select client. 4. Select marketer. 5. Save. | Selected values remain visible and assignment is saved. | High | Pass |
 
 ## Quote Management
@@ -59,4 +59,3 @@
 | TC-PER-001 | Hide user deletion from unauthorized role | Broker account is logged in | 1. Open Users. 2. Open Action menu. | Delete User is absent and direct delete requests are denied. | High | Pass |
 | TC-PER-002 | Restrict quote acceptance by role | Marketer lacks approval permission | 1. Open pending quote. 2. Inspect actions. 3. Attempt direct approval URL. | Accept/Reject controls are hidden and server rejects unauthorized action. | High | Pass |
 | TC-COMP-001 | Run critical smoke flow in Firefox | Firefox is supported | 1. Login. 2. Create client. 3. Create quote. 4. Logout. | Critical flow completes without browser-specific functional failure. | Medium | Blocked — environment unavailable |
-
