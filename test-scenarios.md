@@ -22,9 +22,8 @@
 | TS-018 | Invoice | Restrict invoice actions by permission | High |
 | TS-019 | Claims | Submit a valid claim against an active policy | Critical |
 | TS-020 | Claims | Validate claim amount and supporting documents | High |
-| TS-021 | Claims | Settle a claim using a valid method and amount | Critical |
+| TS-021 | Claims | Enable settlement for an eligible claim | Critical |
 | TS-022 | Remittance | Create and update a remittance schedule | High |
 | TS-023 | Remittance | Require a start and end date before download | Medium |
 | TS-024 | Permissions | Hide restricted actions from unauthorized users | High |
 | TS-025 | Compatibility | Complete a smoke test in supported browsers | Medium |
-
