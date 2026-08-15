@@ -111,7 +111,9 @@ These reports use fictional records and evidence placeholders. Replace each plac
 
 **Actual result:** No loader is shown, and Exchange Rate displays a value before the currency options finish loading.
 
-**Evidence:** `evidence/BUG-004-currency-loading.mp4`
+**Retest status:** Not yet retested; awaiting a development fix.
+
+**Evidence:** [Jam recording — Exchange rate displays during currency loading](https://jam.dev/c/e2714d9d-1284-472b-9427-f6c230ff6bc5)
 
 ---
 
