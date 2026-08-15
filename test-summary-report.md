@@ -25,7 +25,7 @@ Manual testing was completed on the fictional Insurance Brokerage Platform acros
 
 ## Major Risks
 
-- Claim settlement is blocked by a Critical defect, creating financial and operational risk.
+- Claim settlement is blocked because the Settle Claim button remains disabled for an eligible claim, creating financial and operational risk.
 - Quote preview may become inaccessible after refresh.
 - Missing assigned marketer information reduces record traceability.
 - Incorrect currency-loading state could confuse users during invoice creation.
