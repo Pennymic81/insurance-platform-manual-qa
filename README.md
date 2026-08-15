@@ -55,7 +55,7 @@ Formula: `Pass Rate = Passed / Executed × 100`
 - Corporate client edit persistence was fixed and passed retesting.
 - Assigned marketer information may be missing from downstream documents.
 - Currency-dependent values can appear before currency data finishes loading.
-- A claim settlement flow may fail after valid information is submitted.
+- The Settle Claim button may remain disabled for an eligible claim.
 
 ## Tools and Techniques
 
