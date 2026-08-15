@@ -9,7 +9,7 @@ These reports use fictional records and evidence placeholders. Replace each plac
 | Module | Quote Management |
 | Environment | QA; Chrome latest; Windows 11 |
 | Severity / Priority | High / High |
-| Status | Resolved — Fixed and retested |
+| Status | Open |
 | Related test | TC-QTE-005 |
 
 **Precondition:** A saved quote preview is open.
@@ -36,7 +36,7 @@ These reports use fictional records and evidence placeholders. Replace each plac
 | Module | Client Management |
 | Environment | QA; Chrome latest; Windows 11 |
 | Severity / Priority | High / High |
-| Status | Open |
+| Status | Resolved — Fixed and retested |
 | Related test | TC-CLT-004 |
 
 **Precondition:** A corporate client record exists.
@@ -68,7 +68,7 @@ These reports use fictional records and evidence placeholders. Replace each plac
 | Module | Policy / Invoice |
 | Environment | QA; Chrome latest; Windows 11 |
 | Severity / Priority | Medium / High |
-| Status | Open |
+| Status | To Do — Development in progress |
 | Related test | TC-POL-003 |
 
 **Precondition:** A client is assigned to a marketer and has a saved policy and invoice.
@@ -83,7 +83,9 @@ These reports use fictional records and evidence placeholders. Replace each plac
 
 **Actual result:** Assigned marketer information is not displayed on Policy Details or the invoice.
 
-**Evidence:** `evidence/BUG-003-marketer-missing.png`
+**Retest status:** Not yet retested; awaiting a development fix.
+
+**Evidence:** [Jam recording — Assigned marketer is missing from related records](https://jam.dev/c/b5d6fa67-75b0-44b4-99f7-2d32c35f6b68)
 
 ---
 
