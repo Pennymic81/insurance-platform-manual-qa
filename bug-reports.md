@@ -117,7 +117,7 @@ These reports use fictional records and evidence placeholders. Replace each plac
 
 ---
 
-## BUG-005 — Error Occurs When Settling an Approved Claim
+## BUG-005 — “Settle Claim” Button Remains Disabled on the Claim Details Page
 
 | Field | Details |
 | --- | --- |
@@ -127,18 +127,22 @@ These reports use fictional records and evidence placeholders. Replace each plac
 | Status | Open |
 | Related test | TC-CLM-004 |
 
-**Precondition:** An approved claim is available for settlement.
+**Precondition:** A claim has been registered and is eligible to proceed through the settlement workflow.
 
 **Steps to reproduce:**
 
 1. Log in as a Claims Officer.
-2. Open an approved claim.
-3. Click **Settle Claim**.
-4. Enter a valid settlement amount and payment method.
-5. Confirm the settlement.
+2. Register a valid claim.
+3. Open the claim details page.
+4. Scroll to the available claim actions.
+5. Observe the **Settle Claim** button.
 
-**Expected result:** The claim should be settled, the status and audit history should update, and a success message should appear.
+**Expected result:** The **Settle Claim** button should be enabled when the claim meets the settlement requirements, allowing the authorized user to begin the settlement process.
 
-**Actual result:** An error occurs and the claim remains unsettled.
+**Actual result:** The **Settle Claim** button remains disabled, preventing the user from starting the settlement process.
 
-**Evidence:** `evidence/BUG-005-claim-settlement.png`
+**Retest status:** Not yet retested; awaiting a development fix.
+
+**Main evidence:** [Jam recording — Settle Claim button remains disabled](https://jam.dev/c/e4d59cf7-8dea-42d3-bc86-7b5f2d8912fd)
+
+**Supporting evidence:** [Jam recording — Claim details page](https://jam.dev/c/0402c32e-f45a-4381-a71d-65b524b9c80b)
