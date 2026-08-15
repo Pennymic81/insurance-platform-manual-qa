@@ -25,7 +25,7 @@ These reports use fictional records and evidence placeholders. Replace each plac
 
 **Actual result:** The quote preview does not appear after the refresh, preventing the user from reviewing the quote.
 
-**Evidence:** `evidence/BUG-001-quote-preview-refresh.png`
+**Evidence:** [Jam recording — Quote preview disappears after refresh](https://jam.dev/c/a8b6a620-c611-4404-b79a-656a71fcd4cb)
 
 ---
 
@@ -134,4 +134,3 @@ These reports use fictional records and evidence placeholders. Replace each plac
 **Actual result:** An error occurs and the claim remains unsettled.
 
 **Evidence:** `evidence/BUG-005-claim-settlement.png`
-
